@@ -1,0 +1,29 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		"baseUrl": "./",
+		"outDir": "./bin",
+		"sourceMap": true,
+		"declaration": false,
+		"moduleResolution": "node",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"target": "es2018",
+		"module": "commonjs",
+		"typeRoots": [
+			"node_modules/@types"
+		],
+		"lib": [
+			"es2015",
+			"es2016",
+			"es2017",
+			"es2018",
+			"dom"
+		],
+	},
+	"exclude": [
+		"src/lib/tools/toRealTypeMongo.ts",
+		"src/lib/mongo/**",
+		"src/lib/models/MongoConfig.ts"
+	]
+}

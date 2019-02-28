@@ -1,0 +1,18 @@
+{
+	"name": "oz_rw_risingmap_fakeapi_client",
+	"version": "0.1.0",
+	"scripts": {
+		"start": "node bin/main"
+	},
+	"main": "bin/main.js",
+	"private": true,
+	"dependencies": {
+		"rxjs": "^6.4.0",
+		"ws": "^6.1.4"
+	},
+	"devDependencies": {
+		"@types/node": "^10.12.18",
+		"@types/ws": "^6.0.1",
+		"typescript": "^3.3.3333"
+	}
+}

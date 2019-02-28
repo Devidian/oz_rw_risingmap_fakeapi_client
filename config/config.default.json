@@ -1,0 +1,22 @@
+{
+	"log": {
+		"info": true,
+		"debug": true,
+		"warn": true
+	},
+	"cli": {
+		"commands": [
+			"REBOOT"
+		]
+	},
+	"app": {
+		"title": "RM-FakeClient"
+	},
+	"map": {
+		"rawroot": "____/SteamLibrary/steamapps/common/RisingWorld/Map/",
+		"id": ""
+	},
+	"websocket": {
+		"uplink": "ws://localhost:21337/"
+	}
+}
